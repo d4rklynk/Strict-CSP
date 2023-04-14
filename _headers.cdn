@@ -10,8 +10,8 @@
   Cross-Origin-Opener-Policy : same-origin
 
 #/*.js
-#  Access-Control-Allow-Origin: https://mysubdomain.mydomain.com, https://www.srihash.org/
+#  Access-Control-Allow-Origin: https://mysubdomain.mydomain.com, https://www.srihash.org #without trailing slash
 
 #/*.css
-#  Access-Control-Allow-Origin: https://mysubdomain.mydomain.com, https://www.srihash.org/
+#  Access-Control-Allow-Origin: https://mysubdomain.mydomain.com, https://www.srihash.org
 
