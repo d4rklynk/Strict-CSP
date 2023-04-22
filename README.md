@@ -14,6 +14,12 @@
 
 ---
 
+- CSP with Google
+
+-> https://csp.withgoogle.com/docs/index.html
+
+---
+
 - Web.Dev Strict CSP by Google
 
 -> https://web.dev/strict-csp/
