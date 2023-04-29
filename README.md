@@ -29,3 +29,8 @@
 - Permission policy generator
 
 -> https://www.permissionspolicy.com/
+
+---
+
+- Content Security Policy
+-> https://content-security-policy.com/
