@@ -1,12 +1,17 @@
+# Name the file "_headers" and place it in static folder or at the root of your web directory. TO use with CDN (Netlify, Cloudflare Pages, ...)
+
 /*
   Strict-Transport-Security : max-age=63072000; includeSubDomains; preload
-  Content-Security-Policy: default-src 'none'; script-src 'none'; connect-src 'self'; img-src 'self'; style-src 'self'; font-src 'self'; frame-ancestors 'none'; form-action 'self'; base-uri 'self'; require-trusted-types-for 'script'
+  Content-Security-Policy: default-src 'none'; script-src 'none'; connect-src 'self'; img-src 'self'; style-src 'self'; font-src 'self'; frame-ancestors 'none'; form-action 'self'; base-uri 'self'; require-trusted-types-for 'script'; upgrade-insecure-requests; trusted-types 'none'
   Referrer-Policy : no-referrer
-  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), unload=(), window-placement=(), vertical-scroll=()
-  X-Frame-Options: DENY
+  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), bluetooth=(), camera=(), clipboard-read=(), clipboard-write=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), speaker-selection=(), sync-xhr=(), usb=(), xr-spatial-tracking=()
   Cross-Origin-Resource-Policy : same-origin
   Cross-Origin-Embedder-Policy : require-corp
   Cross-Origin-Opener-Policy : same-origin
+  # obsolete and replaced with Content-Security-Policy frame-ancestors 'none'
+  X-Frame-Options: DENY
+  # obsolete, unsafe and replaced with strong Content-Security-Policy
+  X-XSS-Protection : 0
 
 #/*.js
 #  Access-Control-Allow-Origin: https://mysubdomain.mydomain.com, https://www.srihash.org #without trailing slash
