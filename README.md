@@ -2,6 +2,12 @@
 
 ## Useful links/tools
 
+- GrapheneOS NGINX configuration
+
+-> https://github.com/GrapheneOS/grapheneos.org/tree/main/nginx
+
+---
+
 - Generate hashes for inline script
 
 -> https://strict-csp-codelab.glitch.me/csp_sha256_util.html
