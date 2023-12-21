@@ -1,4 +1,4 @@
-# Name the file "_headers" and place it in static folder or at the root of your web directory. TO use with CDN (Netlify, Cloudflare Pages, ...)
+# Name the file "_headers" and place it in static folder or at the root of your web directory. To use with CDN (Netlify, Cloudflare Pages, ...)
 
 /*
   Strict-Transport-Security : max-age=63072000; includeSubDomains; preload
